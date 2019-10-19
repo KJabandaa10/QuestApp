@@ -31,10 +31,6 @@ $quest_pink: #ff6565;
     }
     .start-btn-div {
       justify-self: end;
-
-      [data-function="start"] {
-        cursor: pointer;
-      }
     }
     .options-btn-div {
       display: flex;
@@ -48,9 +44,14 @@ $quest_pink: #ff6565;
       .hidden {
         opacity: 0;
       }
+      [data-function="donate"] {
+        background: #0fa7ff;
+        border-color: #0fa7ff;
+      }
     }
     .button-div {
       button {
+        cursor: pointer;
         width: 8rem;
         padding: 1em 3em;
         background: $quest_pink;

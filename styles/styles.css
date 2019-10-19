@@ -43,10 +43,6 @@
       justify-self: end;
 }
 
-.container section.main .start-btn-div [data-function="start"] {
-  cursor: pointer;
-}
-
 .container section.main .options-btn-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,7 +62,13 @@
   opacity: 0;
 }
 
+.container section.main .options-btn-div [data-function="donate"] {
+  background: #0fa7ff;
+  border-color: #0fa7ff;
+}
+
 .container section.main .button-div button {
+  cursor: pointer;
   width: 8rem;
   padding: 1em 3em;
   background: #ff6565;
