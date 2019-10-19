@@ -1,3 +1,13 @@
+// Options appear on hover
+const optionsDiv = document.querySelector(".options-btn-div");
+const hiddenButtons = [...document.querySelectorAll(".hidden")];
+function optionsHover() {
+  hiddenButtons.forEach(button => button.classList.toggle("hidden"));
+}
+optionsDiv.addEventListener("mouseenter", optionsHover);
+optionsDiv.addEventListener("mouseleave", optionsHover);
+
+// ALGORITHM
 // vars - change with random function according to users boundaries
 let a = Math.floor(Math.random() * 100);
 let b = 17;
