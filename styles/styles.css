@@ -63,7 +63,7 @@
 }
 
 .container section.main .options-btn-div .hidden {
-  display: none;
+  opacity: 0;
 }
 
 .container section.main .button-div button {

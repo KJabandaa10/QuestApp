@@ -1,11 +1,11 @@
 // Options appear on hover
-const optionsDiv = document.querySelector(".options-btn-div");
+const optionsBtn = document.querySelector("[data-function='options']");
 const hiddenButtons = [...document.querySelectorAll(".hidden")];
 function optionsHover() {
   hiddenButtons.forEach(button => button.classList.toggle("hidden"));
 }
-optionsDiv.addEventListener("mouseenter", optionsHover);
-optionsDiv.addEventListener("mouseleave", optionsHover);
+optionsBtn.addEventListener("mouseenter", optionsHover);
+optionsBtn.addEventListener("click", optionsHover);
 
 // ALGORITHM
 // vars - change with random function according to users boundaries
