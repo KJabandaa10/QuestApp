@@ -1,3 +1,5 @@
+// This is nasty! TODO: Use Radium for hover styling.
+
 // Options appear on hover
 export const optionsBtn = document.querySelector("[data-function='options']");
 export const hiddenButtons = [...document.querySelectorAll(".options-option")];

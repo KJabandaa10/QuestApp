@@ -1,22 +1,19 @@
 import React, { Component } from "react";
-import "./styles.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./styles.css";
 
 // Components
 import StartScreen from "./components/StartScreen";
 import QuestationApp from "./components/QuestationApp";
 
-let buttonHoverLi;
+// let buttonHoverLi;
 
 class App extends Component {
-  constructor() {
-    super();
+  componentDidMount() {
+    // buttonHoverLi = require("./buttonHoverLi");
+    // buttonHoverLi.optionsHover();
   }
 
-  componentDidMount() {
-    buttonHoverLi = require("./buttonHoverLi");
-    buttonHoverLi.optionsHover();
-  }
   render() {
     return (
       <Router>
