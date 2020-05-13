@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-class QuestationApp extends Component {
-  state = {};
+class QuestionEnter extends React.Component {
   render() {
     return (
       <React.Fragment>
@@ -13,4 +12,4 @@ class QuestationApp extends Component {
   }
 }
 
-export default QuestationApp;
+export default QuestionEnter;

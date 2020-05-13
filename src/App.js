@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./styles.css";
+import "./styles/styles.css";
 
 // Components
 import StartScreen from "./components/StartScreen";
