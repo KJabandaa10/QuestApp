@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import "./styles/styles.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "../styles/styles.css";
 
 // Components
-import StartScreen from "./components/StartScreen";
-import QuestationApp from "./components/QuestationApp";
+import StartScreen from "./StartScreen";
+// import QuetionEnter from "./QuestionEnter";
+import NavBar from "./NavBar";
 
 // let buttonHoverLi;
 
@@ -18,9 +19,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <NavBar />
           <div className="container">
             <Route exact path="/" component={StartScreen} />
-            <Route path="/QuestationApp" component={QuestationApp} />
           </div>
         </div>
       </Router>
